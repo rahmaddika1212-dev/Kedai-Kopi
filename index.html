@@ -63,10 +63,38 @@ h2{
   line-height:1.8;
 }
 
-.menu-foto{
-  width:100%;
-  border-radius:20px;
+.menu{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
   margin-top:20px;
+}
+
+.card{
+  background:#3d2815;
+  padding:15px;
+  border-radius:20px;
+  width:220px;
+  text-align:center;
+  transition:0.3s;
+}
+
+.card:hover{
+  transform:scale(1.05);
+}
+
+.card img{
+  width:100%;
+  border-radius:15px;
+}
+
+.card h3{
+  margin-top:10px;
+  color:#ffcc70;
+}
+
+.card p{
+  margin-top:8px;
 }
 
 .medsos{
@@ -118,21 +146,45 @@ Buka : 08.00 - 23.00 WIB
 
 <h2>☕ Menu & Harga</h2>
 
-<p>
-Espresso - Rp15.000 <br><br>
+<div class="menu">
 
-Cappuccino - Rp22.000 <br><br>
+<div class="card">
+<img src="kopi1.jpg">
+<h3>Espresso</h3>
+<p>Rp15.000</p>
+</div>
 
-Latte Caramel - Rp25.000 <br><br>
+<div class="card">
+<img src="kopi2.jpg">
+<h3>Cappuccino</h3>
+<p>Rp22.000</p>
+</div>
 
-Kopi Susu Gula Aren - Rp20.000 <br><br>
+<div class="card">
+<img src="kopi3.jpg">
+<h3>Latte Caramel</h3>
+<p>Rp25.000</p>
+</div>
 
-Mocha Ice - Rp24.000 <br><br>
+<div class="card">
+<img src="kopi4.jpg">
+<h3>Kopi Susu Gula Aren</h3>
+<p>Rp20.000</p>
+</div>
 
-Americano - Rp18.000
-</p>
+<div class="card">
+<img src="kopi5.jpg">
+<h3>Mocha Ice</h3>
+<p>Rp24.000</p>
+</div>
 
-<img src="kopi.jpg" class="menu-foto">
+<div class="card">
+<img src="kopi6.jpg">
+<h3>Americano</h3>
+<p>Rp18.000</p>
+</div>
+
+</div>
 
 </section>
 
@@ -141,10 +193,10 @@ Americano - Rp18.000
 <h2>📱 Media Sosial</h2>
 
 <div class="medsos">
-  <a href="#">Instagram</a>
-  <a href="#">TikTok</a>
-  <a href="#">WhatsApp</a>
-  <a href="#">Facebook</a>
+<a href="#">Instagram</a>
+<a href="#">TikTok</a>
+<a href="#">WhatsApp</a>
+<a href="#">Facebook</a>
 </div>
 
 </section>
