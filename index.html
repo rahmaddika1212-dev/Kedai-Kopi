@@ -75,8 +75,8 @@
 
     .menu{
       background:#4b3119;
-      padding:25px;
       border-radius:20px;
+      overflow:hidden;
       transition:0.3s;
       box-shadow:0 0 12px rgba(0,0,0,0.3);
     }
@@ -84,6 +84,16 @@
     .menu:hover{
       transform:translateY(-10px);
       background:#6a4320;
+    }
+
+    .menu img{
+      width:100%;
+      height:200px;
+      object-fit:cover;
+    }
+
+    .menu-content{
+      padding:20px;
     }
 
     .menu h3{
@@ -161,39 +171,57 @@
     <div class="menu-container">
 
       <div class="menu">
-        <h3>Espresso</h3>
-        <p>Kopi hitam pekat dengan rasa khas.</p>
-        <div class="harga">Rp15.000</div>
+        <img src="https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1200&auto=format&fit=crop">
+        <div class="menu-content">
+          <h3>Espresso</h3>
+          <p>Kopi hitam pekat dengan rasa khas.</p>
+          <div class="harga">Rp15.000</div>
+        </div>
       </div>
 
       <div class="menu">
-        <h3>Cappuccino</h3>
-        <p>Perpaduan espresso dan susu creamy.</p>
-        <div class="harga">Rp22.000</div>
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop">
+        <div class="menu-content">
+          <h3>Cappuccino</h3>
+          <p>Perpaduan espresso dan susu creamy.</p>
+          <div class="harga">Rp22.000</div>
+        </div>
       </div>
 
       <div class="menu">
-        <h3>Latte Caramel</h3>
-        <p>Kopi susu dengan rasa caramel manis.</p>
-        <div class="harga">Rp25.000</div>
+        <img src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=1200&auto=format&fit=crop">
+        <div class="menu-content">
+          <h3>Latte Caramel</h3>
+          <p>Kopi susu dengan rasa caramel manis.</p>
+          <div class="harga">Rp25.000</div>
+        </div>
       </div>
 
       <div class="menu">
-        <h3>Kopi Susu Gula Aren</h3>
-        <p>Menu favorit dengan gula aren asli.</p>
-        <div class="harga">Rp20.000</div>
+        <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=1200&auto=format&fit=crop">
+        <div class="menu-content">
+          <h3>Kopi Susu Gula Aren</h3>
+          <p>Menu favorit dengan gula aren asli.</p>
+          <div class="harga">Rp20.000</div>
+        </div>
       </div>
 
       <div class="menu">
-        <h3>Mocha Ice</h3>
-        <p>Campuran kopi dan coklat dingin.</p>
-        <div class="harga">Rp24.000</div>
+        <img src="https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?q=80&w=1200&auto=format&fit=crop">
+        <div class="menu-content">
+          <h3>Mocha Ice</h3>
+          <p>Campuran kopi dan coklat dingin.</p>
+          <div class="harga">Rp24.000</div>
+        </div>
       </div>
 
       <div class="menu">
-        <h3>Americano</h3>
-        <p>Kopi hitam ringan dengan aroma kuat.</p>
-        <div class="harga">Rp18.000</div>
+        <img src="https://images.unsplash.com/photo-1498804103079-a6351b050096?q=80&w=1200&auto=format&fit=crop">
+        <div class="menu-content">
+          <h3>Americano</h3>
+          <p>Kopi hitam ringan dengan aroma kuat.</p>
+          <div class="harga">Rp18.000</div>
+        </div>
       </div>
 
     </div>
