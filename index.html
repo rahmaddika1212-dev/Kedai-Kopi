@@ -22,9 +22,10 @@ body{
 
 header{
   height:100vh;
+
   background:
   linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-  url('https://picsum.photos/1600/900?coffee');
+  url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop');
 
   background-size:cover;
   background-position:center;
@@ -50,53 +51,22 @@ section{
 }
 
 h2{
+  color:#ffcc70;
   font-size:35px;
   margin-bottom:25px;
-  color:#ffcc70;
 }
 
 .alamat{
   background:#3d2815;
   padding:25px;
-  border-radius:15px;
-}
-
-.menu-container{
-  display:grid;
-  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-  gap:25px;
-}
-
-.menu{
-  background:#4b3119;
   border-radius:20px;
-  overflow:hidden;
-  transition:0.3s;
+  line-height:1.8;
 }
 
-.menu:hover{
-  transform:translateY(-8px);
-}
-
-.menu img{
+.menu-foto{
   width:100%;
-  height:200px;
-  object-fit:cover;
-}
-
-.menu-content{
-  padding:20px;
-}
-
-.menu h3{
-  color:#ffd78c;
-  margin-bottom:10px;
-}
-
-.harga{
-  margin-top:10px;
-  font-weight:bold;
-  color:#fff0c4;
+  border-radius:20px;
+  margin-top:20px;
 }
 
 .medsos{
@@ -138,8 +108,8 @@ footer{
 <h2>📍 Alamat</h2>
 
 <div class="alamat">
-  Jl. Sudirman No.15, Tembilahan, Riau <br>
-  Buka : 08.00 - 23.00 WIB
+Jl. Sudirman No.15, Tembilahan, Riau <br>
+Buka : 08.00 - 23.00 WIB
 </div>
 
 </section>
@@ -148,63 +118,21 @@ footer{
 
 <h2>☕ Menu & Harga</h2>
 
-<div class="menu-container">
+<p>
+Espresso - Rp15.000 <br><br>
 
-  <div class="menu">
-    <img src="https://picsum.photos/400/300?espresso">
-    <div class="menu-content">
-      <h3>Espresso</h3>
-      <p>Kopi hitam pekat.</p>
-      <div class="harga">Rp15.000</div>
-    </div>
-  </div>
+Cappuccino - Rp22.000 <br><br>
 
-  <div class="menu">
-    <img src="https://picsum.photos/400/300?cappuccino">
-    <div class="menu-content">
-      <h3>Cappuccino</h3>
-      <p>Kopi susu creamy.</p>
-      <div class="harga">Rp22.000</div>
-    </div>
-  </div>
+Latte Caramel - Rp25.000 <br><br>
 
-  <div class="menu">
-    <img src="https://picsum.photos/400/300?latte">
-    <div class="menu-content">
-      <h3>Latte Caramel</h3>
-      <p>Latte dengan caramel.</p>
-      <div class="harga">Rp25.000</div>
-    </div>
-  </div>
+Kopi Susu Gula Aren - Rp20.000 <br><br>
 
-  <div class="menu">
-    <img src="https://picsum.photos/400/300?coffee">
-    <div class="menu-content">
-      <h3>Kopi Susu Gula Aren</h3>
-      <p>Favorit anak muda.</p>
-      <div class="harga">Rp20.000</div>
-    </div>
-  </div>
+Mocha Ice - Rp24.000 <br><br>
 
-  <div class="menu">
-    <img src="https://picsum.photos/400/300?mocha">
-    <div class="menu-content">
-      <h3>Mocha Ice</h3>
-      <p>Kopi coklat dingin.</p>
-      <div class="harga">Rp24.000</div>
-    </div>
-  </div>
+Americano - Rp18.000
+</p>
 
-  <div class="menu">
-    <img src="https://picsum.photos/400/300?americano">
-    <div class="menu-content">
-      <h3>Americano</h3>
-      <p>Kopi hitam aroma kuat.</p>
-      <div class="harga">Rp18.000</div>
-    </div>
-  </div>
-
-</div>
+<img src="kopi.jpg" class="menu-foto">
 
 </section>
 
