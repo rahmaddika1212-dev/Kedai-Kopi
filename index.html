@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Kedai Kopi Aurora</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#2b1d0e;
+      color:white;
+    }
+
+    header{
+      height:100vh;
+      background:
+      linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+      url('https://images.unsplash.com/photo-1509042239860-f550ce710b93?q=80&w=1200&auto=format&fit=crop');
+
+      background-size:cover;
+      background-position:center;
+
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+    }
+
+    header h1{
+      font-size:65px;
+      color:#ffcc70;
+      text-shadow:3px 3px 10px black;
+    }
+
+    header p{
+      margin-top:15px;
+      font-size:22px;
+    }
+
+    section{
+      padding:60px 10%;
+    }
+
+    h2{
+      font-size:35px;
+      color:#ffcc70;
+      margin-bottom:25px;
+      border-left:6px solid #ffcc70;
+      padding-left:15px;
+    }
+
+    .alamat{
+      background:#3d2815;
+      padding:25px;
+      border-radius:20px;
+      line-height:1.8;
+      box-shadow:0 0 15px rgba(0,0,0,0.3);
+    }
+
+    .menu-container{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .menu{
+      background:#4b3119;
+      padding:25px;
+      border-radius:20px;
+      transition:0.3s;
+      box-shadow:0 0 12px rgba(0,0,0,0.3);
+    }
+
+    .menu:hover{
+      transform:translateY(-10px);
+      background:#6a4320;
+    }
+
+    .menu h3{
+      color:#ffd78c;
+      margin-bottom:10px;
+      font-size:24px;
+    }
+
+    .menu p{
+      margin-bottom:15px;
+      color:#f3e5c0;
+    }
+
+    .harga{
+      font-size:20px;
+      font-weight:bold;
+      color:#fff0c4;
+    }
+
+    .medsos{
+      display:flex;
+      gap:20px;
+      flex-wrap:wrap;
+    }
+
+    .medsos a{
+      text-decoration:none;
+      background:#ffcc70;
+      color:#2b1d0e;
+      padding:15px 25px;
+      border-radius:50px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .medsos a:hover{
+      background:white;
+      transform:scale(1.05);
+    }
+
+    footer{
+      background:#1b1209;
+      text-align:center;
+      padding:20px;
+      margin-top:30px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div>
+      <h1>KEDAI KOPI AURORA</h1>
+      <p>Nikmati Hangatnya Kopi dan Suasana Santai ☕</p>
+    </div>
+  </header>
+
+  <section>
+
+    <h2>📍 Alamat</h2>
+
+    <div class="alamat">
+      Jl. Sudirman No. 15, Tembilahan, Riau <br>
+      Buka setiap hari : 08.00 - 23.00 WIB
+    </div>
+
+  </section>
+
+  <section>
+
+    <h2>☕ Menu & Harga</h2>
+
+    <div class="menu-container">
+
+      <div class="menu">
+        <h3>Espresso</h3>
+        <p>Kopi hitam pekat dengan rasa khas.</p>
+        <div class="harga">Rp15.000</div>
+      </div>
+
+      <div class="menu">
+        <h3>Cappuccino</h3>
+        <p>Perpaduan espresso dan susu creamy.</p>
+        <div class="harga">Rp22.000</div>
+      </div>
+
+      <div class="menu">
+        <h3>Latte Caramel</h3>
+        <p>Kopi susu dengan rasa caramel manis.</p>
+        <div class="harga">Rp25.000</div>
+      </div>
+
+      <div class="menu">
+        <h3>Kopi Susu Gula Aren</h3>
+        <p>Menu favorit dengan gula aren asli.</p>
+        <div class="harga">Rp20.000</div>
+      </div>
+
+      <div class="menu">
+        <h3>Mocha Ice</h3>
+        <p>Campuran kopi dan coklat dingin.</p>
+        <div class="harga">Rp24.000</div>
+      </div>
+
+      <div class="menu">
+        <h3>Americano</h3>
+        <p>Kopi hitam ringan dengan aroma kuat.</p>
+        <div class="harga">Rp18.000</div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <h2>📱 Media Sosial</h2>
+
+    <div class="medsos">
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+      <a href="#">WhatsApp</a>
+      <a href="#">Facebook</a>
+    </div>
+
+  </section>
+
+  <footer>
+    © 2026 Kedai Kopi Aurora | Coffee & Chill
+  </footer>
+
+</body>
+</html>
